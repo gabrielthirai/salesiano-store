@@ -1,6 +1,6 @@
 function Carrinho(){
     return(
-        <div></div>
+        <h1>Carrinho</h1>
     )
 }
 

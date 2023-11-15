@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    background-color: #6D6D6D;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.footer p{
+    color: white;
+    font-size: 20px;
+}
+.footer p:hover{
+    color: red;
+}

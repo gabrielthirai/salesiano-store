@@ -1,21 +1,37 @@
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import Home from './pages/home'
-import Produtos from './pages/produtos'
-import Login from './pages/login'
-import Carrinho from './pages/carrinho'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import './App.css';
-import Navbar from './components/layout/navbar'
+
+import Home from './components/pages/Home';
+import Produtos from './components/pages/Produtos';
+import Login from './components/pages/Login';
+import Carrinho from './components/pages/Carrinho';
+
+import Navbar from './components/layout/navbar';
+import Container from './components/layout/container';
+import Footer from './components/layout/footer';
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <Switch>
-        <Route path="/"><Home /></Route>
-        <Route path="/produtos"><Produtos /></Route>
-        <Route path="/login"><Login /></Route>
-        <Route path="/Carrinho"><Carrinho /></Route>
-      </Switch>
+        <Switch>
+          <Container customClass ="min-height">
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="produtos">
+            <Produtos />
+          </Route>
+          <Route exact path="/login">
+            <Login />
+          </Route>
+          <Route exact path="/carrinho">
+            <Carrinho />
+          </Route>
+
+          </Container>
+        </Switch>
+      <Footer />
     </Router>
   );
 }

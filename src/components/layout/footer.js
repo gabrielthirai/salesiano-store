@@ -1,0 +1,14 @@
+import { DiGithubBadge } from "react-icons/di";
+import styles from './footer.module.css'
+
+function Footer(){
+    return(
+        <footer className={styles.footer}>
+            <p>Salesiano Store Copyright &copy; 2023</p>
+        </footer>
+
+
+    )
+}
+
+export default Footer
