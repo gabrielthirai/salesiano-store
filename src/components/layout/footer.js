@@ -1,4 +1,3 @@
-import { DiGithubBadge } from "react-icons/di";
 import styles from './footer.module.css'
 
 function Footer(){
