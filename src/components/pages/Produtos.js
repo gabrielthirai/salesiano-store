@@ -1,6 +1,18 @@
+import styles from './Produtos.module.css'
+
+
+
 function Produtos(){
     return(
-        <div><p>produtos</p></div>
+        <section>
+            <h1>Jogos</h1>
+
+            <div className='row'>
+                <div>
+                        
+                </div>    
+            </div>   
+        </section>
     )
 }
 

@@ -41,12 +41,23 @@
 }
 
 .integrantes h2{
+    clear: right;
     padding: 2rem;
     font-size: 30px;
     color: ghostwhite;
 }
- 
+
+.integrantes img{
+    width: 200px;
+    float: right;
+}
+
+.integrantes a{
+    width: auto;
+}
+
 .integrantes svg{
-    margin-left: 2rem;
+    color: white;
+    margin-left: 4rem;
     font-size: 2rem;
 }
