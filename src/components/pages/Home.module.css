@@ -54,10 +54,12 @@
 
 .integrantes a{
     width: auto;
+    height: auto;
 }
 
 .integrantes svg{
+    width: 40px;
+    height: 40px;
     color: white;
     margin-left: 4rem;
-    font-size: 2rem;
 }
