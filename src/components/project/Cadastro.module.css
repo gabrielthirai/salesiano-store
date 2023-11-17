@@ -19,7 +19,10 @@
 }
 
 .botao{
+    border: 2px solid #ffffff;
+    box-shadow: 7px 7px 13px 0px rgb(255, 0, 0);
     margin: 1rem;
-    width: 200px;
     height: 50px;
+    width: 150px;
+    font-size: 20px;
 }

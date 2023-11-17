@@ -99,6 +99,12 @@ section{
     background-color: #211F1F;
 }
 
+.card p{
+  margin-top: .6em;
+  margin-bottom: .6em;
+  font-size: 20px;
+}
+
 .card img{
     float: right;
     max-width: 60px;
