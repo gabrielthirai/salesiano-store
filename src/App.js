@@ -9,6 +9,7 @@ import Carrinho from './components/pages/Carrinho';
 import Navbar from './components/layout/navbar';
 import Container from './components/layout/container';
 import Footer from './components/layout/footer';
+import Cadastro from './components/pages/Cadastro';
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
           </Route>
           <Route exact path="/carrinho">
             <Carrinho />
+          </Route>
+
+          <Route exact path="/cadastro">
+            <Cadastro/>
           </Route>
 
           </Container>
