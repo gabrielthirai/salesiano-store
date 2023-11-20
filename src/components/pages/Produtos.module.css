@@ -90,13 +90,14 @@ section{
     order: 0;
   }
 
-.card a{
+.card button{
     margin-top: 2rem;
     padding: 1rem;
     display: flex;
     justify-content: center;
     color: aliceblue;
     background-color: #211F1F;
+    text-decoration: none;
 }
 
 .card p{

@@ -1,6 +1,8 @@
+import styles from './Carrinho.module.css'
+
 function Carrinho(){
     return(
-        <h1>Carrinho</h1>
+        <p>CARRINHO</p>
     )
 }
 
